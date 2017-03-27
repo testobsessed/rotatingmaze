@@ -1,0 +1,63 @@
+.maze {
+    position: relative;
+    height: 600px;
+    width: 600px;
+    top: 0;
+    left: 0;
+    margin: 50px;
+    border: 5px solid gray;
+}
+
+.room {
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    border: 5px solid gray;
+}
+
+.segment {
+    position: absolute;
+    width: 299px; 
+    height: 5px;
+}
+
+.door {
+    position: absolute;
+    background-color: white;
+    width: 20%;
+    height: 5px;
+}
+
+.closed {
+    background-color: gray;
+}
+
+.wall {
+    position: absolute;
+    background-color: darkslategray;
+    width: 60px;
+    height: 5px;
+}
+
+.rotate-0 {
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+.rotate-90 {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+.rotate-180 {
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+.rotate-270 {
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
